@@ -14,16 +14,16 @@
  * tienLuong
  */
 
-function calcTienLuong(){
+function calcSalary(){
     var soNgayLam = document.getElementById("inputSoNgayLam").value;
     console.log(soNgayLam);
     var luong1Ngay = 100.000;
-    var salary = soNgayLam * luong1Ngay;
-    console.log(salary);
+    var tienLuong = soNgayLam * luong1Ngay;
+    console.log(tienLuong);
 
-    document.getElementById("txtTienLuong").innerHTML = "Tiền lương:" + salary + ".000VND";
+    document.getElementById("txtTienLuong").innerHTML = "Tiền lương:" + tienLuong + ".000VND";
 }
-document.getElementById("btnTienLuong").onclick = calcTienLuong;
+document.getElementById("btnTienLuong").onclick = calcSalary;
 
 /** bài 2
  * khối 1: input
