@@ -16,10 +16,10 @@
 
 function calcSalary(){
     var soNgayLam = document.getElementById("inputSoNgayLam").value;
-    console.log(soNgayLam);
+    // console.log(soNgayLam);
     var luong1Ngay = 100.000;
     var tienLuong = soNgayLam * luong1Ngay;
-    console.log(tienLuong);
+    // console.log(tienLuong);
 
     document.getElementById("txtTienLuong").innerHTML = "Tiền lương:" + tienLuong + ".000VND";
 }
@@ -46,7 +46,7 @@ document.getElementById("btnTienLuong").onclick = calcSalary;
     var num4 = document.getElementById("soThuc4").value;
     var num5 = document.getElementById("soThuc5").value;
 
-    console.log(num1,num2,num3,num4,num5);
+    // console.log(num1,num2,num3,num4,num5);
     var giaTriTrungBinh = (parseInt(num1)+parseInt(num2)+parseInt(num3)+parseInt(num4)+parseInt(num5))/5;
     
     document.getElementById("txtGTTB").innerHTML = "Giá trị trung bình:" + giaTriTrungBinh;
