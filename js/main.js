@@ -17,7 +17,7 @@
 function calcSalary(){
     var soNgayLam = document.getElementById("inputSoNgayLam").value;
     // console.log(soNgayLam);
-    var luong1Ngay = 100.000;
+    var luong1Ngay = document.getElementById("inputLuongMotNgay");
     var tienLuong = soNgayLam * luong1Ngay;
     // console.log(tienLuong);
 
